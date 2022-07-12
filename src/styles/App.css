@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('../imgs/rocks.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.board__container {
+  min-width: 150px;
+  height: fit-content;
+  margin: 20px 20px;
+  padding-top: 10px;
+
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(205, 214, 219, 0.5);
+}
+
+.board__container:hover {
+  cursor: pointer;
+}
+
+.board__head {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.board__title {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board__title__buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 30%;
+}
+
+.addTask__button {
+  color: gray;
+}
+
+.add_board_button {
+  color: green;
+
+  min-width: 150px;
+  min-height: 50px;
+  margin-top: 40px;
+}

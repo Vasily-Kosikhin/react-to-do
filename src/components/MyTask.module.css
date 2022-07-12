@@ -1,0 +1,23 @@
+.task__body {
+  padding-left: 3px;
+  padding-right: 5px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border: 4px double rgb(110, 110, 110);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.task__body:hover {
+  cursor: pointer;
+}
+
+.task__title {
+  margin-left: 1px;
+  font-size: 1.1em;
+  padding-left: 5px;
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+}
