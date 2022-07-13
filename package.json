@@ -1,5 +1,6 @@
 {
   "name": "test",
+  "homepage": "https://Vasily-Kosikhin.github.io/react-to-do",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
